@@ -28,4 +28,11 @@ public class MyGenericStack<T> {
 	public int size() {
 		return stack.size();
 	}
+
+	public T peek() {
+		if (isEmpty()) {
+			throw new EmptyStackException();
+		}
+		return stack.getLast();
+	}
 }

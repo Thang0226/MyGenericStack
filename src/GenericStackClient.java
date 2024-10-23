@@ -14,6 +14,7 @@ public class GenericStackClient {
 		stack.push("Two");
 		stack.push("One");
 		System.out.println("2.1 Size of stack after push operations: " + stack.size());
+		System.out.println("Element on top of stack: " + stack.peek());
 		System.out.print("2.2. Pop elements from stack : ");
 		while (!stack.isEmpty()) {
 			System.out.printf(" %s", stack.pop());
