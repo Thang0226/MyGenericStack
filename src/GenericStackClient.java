@@ -29,7 +29,7 @@ public class GenericStackClient {
 		stack.push(2);
 		stack.push(1);
 		System.out.println("1.1. Size of stack after push operations: " + stack.size());
-		System.out.printf("1.2. Pop elements from stack : ");
+		System.out.print("1.2. Pop elements from stack : ");
 		while (!stack.isEmpty()) {
 			System.out.printf(" %d", stack.pop());
 		}
